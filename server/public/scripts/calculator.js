@@ -61,12 +61,7 @@ function displayEmployees () {
 
 function calcSal (arr) {
     //creating an array to put the salary info- so i can perform a reduce
-    var pizza = ['12', '14'];
-    var salaryArray = pizza.forEach(function (element) {
-      console.log( element + 1);
-       });
-       console.log(salaryArray);
-
+    var salaryArray =[];
     for (var i= 0; i<arr.length; i++) {
         salaryArray.push(parseInt(arr[i].salary)/12);
     }
