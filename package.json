@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/samstanding/express_challenge#readme",
   "dependencies": {
-    "body-parser": "^1.18.2"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
   }
 }

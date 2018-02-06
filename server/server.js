@@ -1,4 +1,5 @@
 //require express 
+console.log('hello server');
 let express = require('express');
 
 //create an instance of express by calling the function required above
@@ -9,6 +10,6 @@ let port = 6242;
 app.use(express.static('server/public'));
 
 //set up the server
-app.listen(port,function (){
+app.listen(port, function (){
     console.log(`listening on port ${port}`);
 })
